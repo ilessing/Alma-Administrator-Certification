@@ -1,6 +1,8 @@
-## Resource Mngmt 3
+## Resource Management
+### Resource Mngmt 3
 
-#### Normalization rules: used to edit Marc21 Bib records or Holdings records.
+#### Normalization rules:
+  are used to edit Marc21 Bib records or Holdings records.
   - Capable of:
     - Add or Remove fields and subfields.
     - Replace Fields, subfields, indicators with other fields, subfields & indicators
@@ -12,7 +14,8 @@
   - Processes contain Normalization Rules and allow Norm. Rules to be run as a job on a set of records or on an idividual record.
   - Can be associated as "Processes" for easy application to records as a job.
 
-#### Merge Methods:  combine 2 records into 1. user defines which fields are kept, overwritten etc.
+#### Merge Methods:
+combine 2 records into 1. user defines which fields are kept, overwritten etc.
   - similar to Normalization Rules as they use similar syntax.
   - Merge methods act on Preferred record with values on Non-Preferred records.
     - When using an import profile or OCLC the Preferred record in the local record.
@@ -35,14 +38,14 @@
   - the "001 to MMS_ID Match Method" should be used when importing records previously exported from Alma
 
 ###### Norm rules, Merge Methods, Match Methods can be applied to:
-  1. single record in MD editor
+  1. a single record in MD editor
   2. importing bib records from external search source
   3. importing bibs from OCLC connection
   4. importing records in batch mode via an Import Profile
 
 ---------------------------------------
 
-## Resource Mngmt 4
+### Resource Mngmt 4
 
 #### Metadata Customization
   Marc21 Bib & holdings MD Schema customization
@@ -62,11 +65,10 @@
   - can be re-used in multiple sub-fields
   - a locally defined vocab will only be available for a particular sub-field
 
---------------------------------------------
 
-## Resource Mngmt 5 - Import Profiles
+#### Resource Mngmt 5 - Import Profiles
 
-#### Allows you to create Bib and Inventory records via batch process
+##### Allows you to create Bib and Inventory records via batch process
   - Normalizes & validates incoming records to conform to Marc21 and local customizations
   - can search for matches (using Match Methods)
   - can merge with existing records (using Merge Methods)
@@ -78,9 +80,7 @@
   - Must be Catalog Admin to configure Import Profiles
   - Allows creation of brief records which in turn can be used for ordering
 
------------------------------------------------
-
-## Resource Management 6 - misc
+#### Resource Management 6 - misc
   - Provenance Codes
     - History of an item stored in Provenance field
     - populates the drop down selector in item record provenance field.
@@ -122,7 +122,7 @@
     - you can select 1 sort routine as Default
     - populate "sort routines" drop down selector
 
-## Resource Mngmnt Quiz
+#### Resource Management Quiz
   - Work Orders
     - Work order types can be configured at Institution level or Library level
     - Institution level Work Order Types can be associated with departments at multiple Libraries.
