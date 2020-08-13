@@ -11,5 +11,5 @@ Good luck on your exam!
 I welcome contributions from others.  Please open a pull request with your updates or open an issue in Github.
 
   - [General Alma training](https://knowledge.exlibrisgroup.com/Alma/Training)
-  - [Alma Admin training](https://knowledge.exlibrisgroup.com/Alma/Training/Alma_Administration)
+  - [Alma Admin training](https://knowledge.exlibrisgroup.com/Alma/Training/Alma_Administration) (Login Required)
   - [Alma Documentation](https://knowledge.exlibrisgroup.com/Alma/Product_Documentation)
